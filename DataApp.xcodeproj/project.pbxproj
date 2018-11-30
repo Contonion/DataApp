@@ -10,11 +10,10 @@
 		6C025EFC21B182CE006D3267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025EFB21B182CE006D3267 /* AppDelegate.swift */; };
 		6C025F0121B182CE006D3267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C025EFF21B182CE006D3267 /* Main.storyboard */; };
 		6C025F0321B182D8006D3267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C025F0221B182D8006D3267 /* Assets.xcassets */; };
-		6C025F0621B182D8006D3267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C025F0421B182D8006D3267 /* LaunchScreen.storyboard */; };
-		6C025F1421B18524006D3267 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025F1321B18524006D3267 /* BucketItemCell.swift */; };
-		6C025F1621B1852F006D3267 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025F1521B1852F006D3267 /* DataViewController.swift */; };
 		6C025F1821B18543006D3267 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6C025F1721B18543006D3267 /* bucket18.csv */; };
 		6C025F1B21B1856E006D3267 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025F1A21B1856E006D3267 /* BucketItem.swift */; };
+		6C025F1D21B18E02006D3267 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025F1C21B18E02006D3267 /* DataViewController.swift */; };
+		6C025F1F21B18E30006D3267 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C025F1E21B18E30006D3267 /* BucketItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +21,11 @@
 		6C025EFB21B182CE006D3267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C025F0021B182CE006D3267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C025F0221B182D8006D3267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C025F0521B182D8006D3267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C025F0721B182D8006D3267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C025F1321B18524006D3267 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
-		6C025F1521B1852F006D3267 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		6C025F1721B18543006D3267 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
 		6C025F1A21B1856E006D3267 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		6C025F1C21B18E02006D3267 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6C025F1E21B18E30006D3267 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				6C025EFF21B182CE006D3267 /* Main.storyboard */,
-				6C025F0421B182D8006D3267 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,8 +88,8 @@
 		6C025F1021B18464006D3267 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6C025F1321B18524006D3267 /* BucketItemCell.swift */,
-				6C025F1521B1852F006D3267 /* DataViewController.swift */,
+				6C025F1C21B18E02006D3267 /* DataViewController.swift */,
+				6C025F1E21B18E30006D3267 /* BucketItemCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C025F0621B182D8006D3267 /* LaunchScreen.storyboard in Resources */,
 				6C025F1821B18543006D3267 /* bucket18.csv in Resources */,
 				6C025F0321B182D8006D3267 /* Assets.xcassets in Resources */,
 				6C025F0121B182CE006D3267 /* Main.storyboard in Resources */,
@@ -177,9 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C025F1F21B18E30006D3267 /* BucketItemCell.swift in Sources */,
+				6C025F1D21B18E02006D3267 /* DataViewController.swift in Sources */,
 				6C025F1B21B1856E006D3267 /* BucketItem.swift in Sources */,
-				6C025F1421B18524006D3267 /* BucketItemCell.swift in Sources */,
-				6C025F1621B1852F006D3267 /* DataViewController.swift in Sources */,
 				6C025EFC21B182CE006D3267 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,14 +189,6 @@
 				6C025F0021B182CE006D3267 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6C025F0421B182D8006D3267 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C025F0521B182D8006D3267 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DB78DUWP98;
-				INFOPLIST_FILE = DataApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DataApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DB78DUWP98;
-				INFOPLIST_FILE = DataApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DataApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
